@@ -1,0 +1,48 @@
+.title{
+    font-size: 23px;
+    font-weight: 700;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+    align-items:center;
+}
+.daily-item{
+    background-color: white;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.daily-day-icon{
+    width: 40px;
+}
+.day{
+    color: #212121;
+    flex: 1 1;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.description{
+    margin-right: 20px;
+}
+.min-max{
+    color: #757575;
+}
+.daily-detail-grid{
+    /* grid-row-gap: 0;
+    grid-column-gap: 15px; */
+    display: grid;
+    /* grid-column: 15px; */
+    /* flex: 1 1; */
+    grid-template-columns: auto auto;
+    padding: 5px 20px;
+}
+.first-child{
+    color: #c710db;
+}
+.last-child{
+    color: #cf530b;
+}
